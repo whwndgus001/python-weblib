@@ -2,8 +2,6 @@ from urllib.parse import urlencode
 from urllib.request import urlopen, Request
 
 # GET
-
-
 http_response = urlopen('https://www.example.com')
 body = http_response.read()
 html = body.decode('utf-8')
